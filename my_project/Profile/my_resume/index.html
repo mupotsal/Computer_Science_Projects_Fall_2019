@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang='en-US'>
+<head>
+<title> RESUME</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="description" content="My  Website">
+ <meta name="keywords" content="Resume,Liberty,Mupotsa,data-scientist">
+ <meta name="author" content="Liberty Mupotsa">
+
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+ <!-- Responsive style, css link, js link should be at the bottom the body,  -->
+
+<style>
+.my_nav_bar {
+  background-color: #333;
+}
+.my_nav_bar a {
+  text-align: center;
+  color: blue;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 20 px;
+}
+.float_right{
+  float: right;
+}
+.my_nav_bar a.active{
+  background-color: #4CAF50;
+}
+.my_nav_bar a:hover{
+  background-color:tomato;
+}
+
+.my_background_image {
+  background-image: url('mupotsal.jpg');
+  background-size: 100% 100%;
+  height: 800px
+}
+.my_nav_bar .icon {
+  display: none;
+}
+
+<style>
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+</style>
+
+<style>
+ @media screen and (max-width: 600px) {
+  .my_nav_bar.responsive {position: relative;}
+  .my_nav_bar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .my_nav_bar.responsive a {
+    float: right;
+    display: block;
+    text-align: left;
+  }
+
+
+}
+
+function myFunction() {
+  var x = document.getElementById("my_nav_bar");
+  if (x.className === "my_nav_bar") {
+    x.className += " responsive";
+  } else {
+    x.className = "my_nav_bar";
+  }
+}
+
+ </style> -->
+ <!-- google fonts -->
+</head>
+<body>
+<header class="my_background_image" >
+  <div class = "my_nav_bar " id="my_nav_bar">
+    <a class = "active" href="#name"  >Liberty Mupotsa</a>
+    <div class = "float_right">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">   <i class="fa fa-bars"></i> </a>
+
+    </div>
+  </div>
+  <div style="height:750px;color:white;" >
+    <h3>Hello i am </h3>
+    <h2>Liberty Mupotsa</h2>
+    <p>Web Design | Computer Science| Data
+   </div>
+
+
+
+<style>
+   nav {
+  float: left;
+  width: 30%;
+  height: 250px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}/* Style the list inside the menu */
+
+article{
+  float:left;
+  padding: 20px;
+  width: 63%;
+  background-color: #f1f1f1;
+  height: 250px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+  @media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+</style>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">putimage</a></li>
+
+    </ul>
+  </nav>
+
+<article>
+    <h1>Liberty Mupotsa</h1>
+    <p> Write about Yourself</p>
+      </article>
+</section>
+</header>
+
+</body>
+</html>
